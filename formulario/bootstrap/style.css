@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.png');
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+
+#descripcionSerie{
+    width: 400px;
+    height: 200px;
+}
