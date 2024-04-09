@@ -13,22 +13,48 @@
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/cartoonLogo.png" class="Imagen-Cards" alt="Un Show Mas" style="width: 150px; height: auto;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Juegos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nosotros</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <h1>Formulario de Descripción de Series</h1>
 
 
-    <form action="#" method="POST">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nombre de la serie</label>
-            <input type="email" class="form-control" id="nombreSerie" placeholder="Hora de Aventura">
-        </div>
-        
-        <div class="mb-4">
-            <label for="exampleFormControlTextarea1" class="form-label">Sinopsis de la serie</label>
-            <textarea class="form-control" id="descripcionSerie" rows="4"></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-warning">Enviar</button>
-    </form>
+    <div class="Formulario">
+        <form action="#" method="POST">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre de la serie</label>
+                <input type="email" class="form-control" id="nombreSerie" placeholder="Hora de Aventura">
+            </div>
+            
+            <div class="mb-4">
+                <label for="exampleFormControlTextarea1" class="form-label">Sinopsis de la serie</label>
+                <textarea class="form-control" id="descripcionSerie" rows="4"></textarea>
+            </div>
+    
+            <button type="submit" class="btn btn-warning">Enviar</button>
+        </form>
+    </div>
+    
 
 </body>
 </html>

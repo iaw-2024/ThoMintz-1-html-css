@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     
     
+    
 }
 
 .ul-items {
@@ -30,6 +31,8 @@ body {
     
     
 }
+
+
 
 .content_image {
     display: flex;
@@ -51,6 +54,14 @@ img {
 .navbar-nav{
     display: flex;
     align-items: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.Formulario{
+    margin: 50px;
 }
 
 

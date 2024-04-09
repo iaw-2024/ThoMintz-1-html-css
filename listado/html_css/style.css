@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
     color: black;
+    margin: 50px;
 }
 
 body {
@@ -9,7 +10,8 @@ body {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
-    
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -45,4 +47,21 @@ img {
     width: 150px;
     height: 200px;
     padding: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: white;
 }
